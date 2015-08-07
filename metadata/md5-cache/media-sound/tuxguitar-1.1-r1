@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	java-pkg-2	1889f7787714c5f7e3b5bb1c2be07c1f	flag-o-matic	c9602887773166fe300444712fc7ff98	java-utils-2	240e3f28c6b42b9f36d3c36b8b27fbb2	versionator	cd0bcdb170807e4a1984115e9d53a26f	multilib	62927b3db3a589b0806255f3a002d5d3	gnome2-utils	5cdfd22a2163c9d3a891648bd19453a7	fdo-mime	acfe1a88fd8751a1d5dc671168219fa	eutils	9fb270e417e0e83d64ca52586c4a79de	java-ant-2	1091461b8b02f54fabcfbf159164ff15
+_md5_=e20590e7bf17a36ec02863b0f62b6724
+SLOT=0
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup
+EAPI=2
+DEPEND=>=virtual/jdk-1.5 dev-java/swt:3.4[cairo] alsa? ( media-libs/alsa-lib ) fluidsynth? ( media-sound/fluidsynth ) pdf? ( dev-java/itext:0 ) >=dev-java/java-config-2.2.0 source? ( app-arch/zip ) >=dev-java/ant-core-1.8.2 >=dev-java/javatoolkit-0.3.0-r2 >=sys-apps/sed-4
+DESCRIPTION=TuxGuitar is a multitrack guitar tablature editor and player written in Java-SWT
+LICENSE=LGPL-2.1
+IUSE=alsa fluidsynth oss pdf elibc_FreeBSD source elibc_FreeBSD
+SRC_URI=mirror://sourceforge/tuxguitar/tuxguitar-src-1.1.tar.gz
+KEYWORDS=~amd64
+HOMEPAGE=http://www.tuxguitar.com.ar/
+RDEPEND=>=virtual/jre-1.5 alsa? ( media-sound/timidity++[alsa] ) oss? ( media-sound/timidity++[oss] ) dev-java/swt:3.4[cairo] alsa? ( media-libs/alsa-lib ) fluidsynth? ( media-sound/fluidsynth ) pdf? ( dev-java/itext:0 ) >=dev-java/java-config-2.2.0 source? ( app-arch/zip )

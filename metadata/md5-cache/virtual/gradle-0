@@ -1,0 +1,8 @@
+_eclasses_=
+_md5_=aba8f619b73795f426e158baba67e778
+SLOT=0
+DEFINED_PHASES=-
+EAPI=5
+DESCRIPTION=Virtual for gradle
+KEYWORDS=~amd64 ~x86
+RDEPEND=|| ( dev-java/gradle-bin dev-java/gradle )

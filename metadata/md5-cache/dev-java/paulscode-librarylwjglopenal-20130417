@@ -1,0 +1,13 @@
+_eclasses_=java-pkg-simple	28dc6c3e6fa8ed51b88360dfd5fee53e	toolchain-funcs	42408102d713fbad60ca21349865edb4	java-pkg-2	1889f7787714c5f7e3b5bb1c2be07c1f	java-utils-2	240e3f28c6b42b9f36d3c36b8b27fbb2	versionator	cd0bcdb170807e4a1984115e9d53a26f	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=8d989316d44a421e871ca71db37ccda5
+SLOT=0
+DEFINED_PHASES=compile install preinst prepare setup
+EAPI=5
+DEPEND=dev-java/paulscode-soundsystem:0 dev-java/lwjgl:2.9 >=virtual/jdk-1.5 app-arch/unzip >=dev-java/java-config-2.2.0 source? ( app-arch/zip )
+DESCRIPTION=LWJGL OpenAL library plug-in for Paul Lamb's 3D Sound System
+LICENSE=paulscode-SoundSystem
+IUSE=elibc_FreeBSD doc source elibc_FreeBSD
+SRC_URI=http://www.paulscode.com/source/SoundSystem/17APR2013/LibraryLWJGLOpenAL.zip -> paulscode-librarylwjglopenal-20130417.zip
+KEYWORDS=~amd64
+HOMEPAGE=http://www.paulscode.com/forum/index.php?topic=4.0
+RDEPEND=dev-java/paulscode-soundsystem:0 dev-java/lwjgl:2.9 >=virtual/jre-1.5 >=dev-java/java-config-2.2.0 source? ( app-arch/zip )

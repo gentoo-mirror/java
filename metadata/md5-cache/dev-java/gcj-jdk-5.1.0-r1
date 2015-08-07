@@ -1,0 +1,11 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	prefix	21058c21ca48453d771df15500873ede	pax-utils	dfe060cb70d89757fde5c1ff8405e950	eutils	9fb270e417e0e83d64ca52586c4a79de	fdo-mime	acfe1a88fd8751a1d5dc671168219fa	java-vm-2	caa0212cf1c60716fd4b3ab09268be3e
+_md5_=40d0d5dc02626629dbe948f9d95e828e
+SLOT=0
+DEFINED_PHASES=install postinst postrm prerm setup
+EAPI=5
+DEPEND=dev-java/ecj-gcj:3.6 dev-lang/perl ~sys-devel/gcc-5.1.0[gcj] javadoc? ( dev-java/gnu-classpath:0[gjdoc] ) >=dev-java/java-config-2.2.0 app-eselect/eselect-java
+DESCRIPTION=Java wrappers around GCJ
+LICENSE=GPL-2
+IUSE=javadoc X
+HOMEPAGE=http://www.gentoo.org/
+RDEPEND=dev-java/ecj-gcj:3.6 dev-lang/perl ~sys-devel/gcc-5.1.0[gcj] javadoc? ( dev-java/gnu-classpath:0[gjdoc] ) >=dev-java/java-config-2.2.0 app-eselect/eselect-java

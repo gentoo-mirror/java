@@ -1,0 +1,12 @@
+_eclasses_=
+_md5_=d155b0000a41a07eea22630d85bb87e7
+SLOT=1.5
+DEFINED_PHASES=install unpack
+EAPI=0
+DEPEND=app-arch/unzip
+DESCRIPTION=Sun's J2SE Cryptographic extensions, version 1.5.0
+LICENSE=sun-bcla-java-vm
+RESTRICT=fetch
+SRC_URI=jce_policy-1_5_0.zip
+KEYWORDS=~amd64 ~x86 ~x86-fbsd
+HOMEPAGE=http://java.sun.com/j2se/1.5.0/

@@ -1,0 +1,13 @@
+_eclasses_=java-pkg-simple	28dc6c3e6fa8ed51b88360dfd5fee53e	toolchain-funcs	42408102d713fbad60ca21349865edb4	java-pkg-2	1889f7787714c5f7e3b5bb1c2be07c1f	java-utils-2	240e3f28c6b42b9f36d3c36b8b27fbb2	versionator	cd0bcdb170807e4a1984115e9d53a26f	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=8993bfd6fe231c6a5c243a2dd5eecdda
+SLOT=0
+DEFINED_PHASES=compile install preinst prepare setup
+EAPI=5
+DEPEND=>=virtual/jdk-1.6 dev-java/netty-buffer:0 dev-java/netty-common:0 ~dev-java/netty-transport-4.0.21:0 >=dev-java/java-config-2.2.0 source? ( app-arch/zip )
+DESCRIPTION=Native Netty transport for Linux using JNI
+LICENSE=Apache-2.0
+IUSE=elibc_FreeBSD doc source elibc_FreeBSD
+SRC_URI=https://github.com/netty/netty/archive/netty-4.0.21.Final.tar.gz
+KEYWORDS=~amd64
+HOMEPAGE=http://netty.io/wiki/native-transports.html
+RDEPEND=>=virtual/jre-1.6 dev-java/netty-buffer:0 dev-java/netty-common:0 ~dev-java/netty-transport-4.0.21:0 >=dev-java/java-config-2.2.0 source? ( app-arch/zip )

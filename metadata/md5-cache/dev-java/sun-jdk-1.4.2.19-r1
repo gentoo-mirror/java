@@ -1,0 +1,14 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	prefix	21058c21ca48453d771df15500873ede	pax-utils	dfe060cb70d89757fde5c1ff8405e950	eutils	9fb270e417e0e83d64ca52586c4a79de	fdo-mime	acfe1a88fd8751a1d5dc671168219fa	java-vm-2	caa0212cf1c60716fd4b3ab09268be3e
+_md5_=e34904173cb9c1022d94735a20c34731
+SLOT=1.4
+DEFINED_PHASES=install postinst postrm prerm setup unpack
+EAPI=0
+DEPEND=sys-apps/sed app-arch/unzip >=dev-java/java-config-2.2.0 app-eselect/eselect-java
+DESCRIPTION=Sun's Java SE Development Kit
+LICENSE=sun-bcla-java-vm
+IUSE=X alsa examples jce nsplugin odbc
+RESTRICT=fetch strip
+SRC_URI=x86? ( j2sdk-1_4_2_19-linux-i586.bin ) jce? ( jce_policy-1_4_2.zip )
+KEYWORDS=~x86
+HOMEPAGE=http://java.sun.com/j2se/1.4.2/
+RDEPEND=alsa? ( media-libs/alsa-lib ) X? ( x11-libs/libXext x11-libs/libXi x11-libs/libXp x11-libs/libXtst x11-libs/libXt x11-libs/libX11 ) odbc? ( dev-db/unixODBC ) >=dev-java/java-config-2.2.0 app-eselect/eselect-java

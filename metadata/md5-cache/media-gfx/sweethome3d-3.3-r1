@@ -1,0 +1,13 @@
+_eclasses_=java-pkg-simple	28dc6c3e6fa8ed51b88360dfd5fee53e	toolchain-funcs	42408102d713fbad60ca21349865edb4	java-pkg-2	1889f7787714c5f7e3b5bb1c2be07c1f	java-utils-2	240e3f28c6b42b9f36d3c36b8b27fbb2	versionator	cd0bcdb170807e4a1984115e9d53a26f	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de	java-ant-2	1091461b8b02f54fabcfbf159164ff15
+_md5_=413dabcb694b129a3d6c634ced2b106a
+SLOT=0
+DEFINED_PHASES=compile configure install preinst prepare setup unpack
+EAPI=3
+DEPEND=>=virtual/jdk-1.5 app-arch/unzip >=dev-java/apple-java-extensions-bin-1.5:0 dev-java/freehep-graphics2d:0 dev-java/freehep-graphicsio:0 dev-java/freehep-graphicsio-svg:0 dev-java/freehep-util:0 dev-java/itext:0 dev-java/j3d-core:0 dev-java/janino:0 dev-java/java3dsloader:0 dev-java/jmf-bin:0 dev-java/jnlp-api dev-java/vecmath:0 >=dev-java/java-config-2.2.0 >=dev-java/ant-core-1.8.2 >=dev-java/javatoolkit-0.3.0-r2
+DESCRIPTION=Sweet Home 3D is a free interior design application.
+LICENSE=GPL-3
+IUSE=elibc_FreeBSD elibc_FreeBSD elibc_FreeBSD
+SRC_URI=mirror://sourceforge/sweethome3d/SweetHome3D-3.3-src.zip http://dev.gentoo.org/~fordfrog/distfiles/sweethome3d.png http://www.polyquark.com/opensource/download/binariesAndSources.zip -> sunflow-0.7.3.zip
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://sweethome3d.sourceforge.net/
+RDEPEND=>=virtual/jre-1.5 >=dev-java/apple-java-extensions-bin-1.5:0 dev-java/freehep-graphics2d:0 dev-java/freehep-graphicsio:0 dev-java/freehep-graphicsio-svg:0 dev-java/freehep-util:0 dev-java/itext:0 dev-java/j3d-core:0 dev-java/janino:0 dev-java/java3dsloader:0 dev-java/jmf-bin:0 dev-java/jnlp-api dev-java/vecmath:0 >=dev-java/java-config-2.2.0

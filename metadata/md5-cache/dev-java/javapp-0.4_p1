@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	java-pkg-2	1889f7787714c5f7e3b5bb1c2be07c1f	java-utils-2	240e3f28c6b42b9f36d3c36b8b27fbb2	versionator	cd0bcdb170807e4a1984115e9d53a26f	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de	java-ant-2	1091461b8b02f54fabcfbf159164ff15
+_md5_=13e370a73b142b46b490167237298390
+SLOT=0
+DEFINED_PHASES=compile configure install preinst prepare setup test unpack
+EAPI=4
+DEPEND=dev-java/ant-core:0 dev-java/jython:2.5 app-arch/unzip >=virtual/jdk-1.5 >=dev-java/java-config-2.2.0 source? ( app-arch/zip ) >=dev-java/ant-core-1.8.2 >=dev-java/javatoolkit-0.3.0-r2
+DESCRIPTION=Java preprocessor with cpp-like syntax and Ant support
+LICENSE=GPL-2
+IUSE=elibc_FreeBSD doc source elibc_FreeBSD
+SRC_URI=http://git.slashdev.ca/javapp/snapshot/javapp-c8d01bc1b0b2fe34cfd45a08d66c499222caf423.tar.bz2
+KEYWORDS=~amd64
+HOMEPAGE=http://www.slashdev.ca/javapp/
+RDEPEND=dev-java/ant-core:0 dev-java/jython:2.5 >=virtual/jre-1.5 >=dev-java/java-config-2.2.0 source? ( app-arch/zip )

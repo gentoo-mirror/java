@@ -1,0 +1,8 @@
+_eclasses_=
+_md5_=8a8fd5631e1b20487f1606eb16d347b
+SLOT=1.5
+DEFINED_PHASES=-
+EAPI=5
+DESCRIPTION=Virtual for JDK
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86 ~ppc-aix ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~x64-solaris ~x86-solaris
+RDEPEND=|| ( >=dev-java/gcj-jdk-4.3 >=dev-java/cacao-0.99.2 >=dev-java/jamvm-2.0.0 =dev-java/sun-jdk-1.5.0* )

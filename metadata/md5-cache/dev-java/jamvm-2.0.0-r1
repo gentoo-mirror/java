@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	flag-o-matic	c9602887773166fe300444712fc7ff98	multilib	62927b3db3a589b0806255f3a002d5d3	prefix	21058c21ca48453d771df15500873ede	pax-utils	dfe060cb70d89757fde5c1ff8405e950	libtool	52d0e17251d04645ffaa61bfdd858944	eutils	9fb270e417e0e83d64ca52586c4a79de	fdo-mime	acfe1a88fd8751a1d5dc671168219fa	autotools	2264f05fbbbaaf83d34ec81e72b38ffd	java-vm-2	caa0212cf1c60716fd4b3ab09268be3e
+_md5_=58ca5295f2af81905e4c027e1943ecaf
+SLOT=0
+DEFINED_PHASES=configure install postinst postrm prepare prerm setup
+EAPI=5
+DEPEND=dev-java/gnu-classpath:0 || ( dev-java/eclipse-ecj:* dev-java/ecj-gcj:* ) libffi? ( virtual/libffi ) ppc64? ( virtual/libffi ) sparc? ( virtual/libffi ) >=dev-java/java-config-2.2.0 app-eselect/eselect-java !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=An extremely small and specification-compliant virtual machine
+LICENSE=GPL-2
+IUSE=debug libffi
+SRC_URI=mirror://sourceforge/jamvm/jamvm-2.0.0.tar.gz
+KEYWORDS=~amd64
+HOMEPAGE=http://jamvm.sourceforge.net/
+RDEPEND=dev-java/gnu-classpath:0 || ( dev-java/eclipse-ecj:* dev-java/ecj-gcj:* ) libffi? ( virtual/libffi ) ppc64? ( virtual/libffi ) sparc? ( virtual/libffi ) >=dev-java/java-config-2.2.0 app-eselect/eselect-java

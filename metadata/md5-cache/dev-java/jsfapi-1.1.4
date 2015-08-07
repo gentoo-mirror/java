@@ -1,0 +1,14 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	java-pkg-2	1889f7787714c5f7e3b5bb1c2be07c1f	java-utils-2	240e3f28c6b42b9f36d3c36b8b27fbb2	versionator	cd0bcdb170807e4a1984115e9d53a26f	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=70265ba0dfe0055ee9c6454c00dd0442
+SLOT=1
+DEFINED_PHASES=compile install preinst setup
+EAPI=0
+DEPEND=>=virtual/jdk-1.4 doc? ( app-arch/unzip ) >=dev-java/commons-logging-1.0 =dev-java/servletapi-2.4* =dev-java/jakarta-jstl-1.1* >=dev-java/java-config-2.2.0
+DESCRIPTION=JavaServer Faces technology is a framework for building user interfaces for web applications
+LICENSE=Apache-2.0
+IUSE=doc elibc_FreeBSD
+RESTRICT=fetch
+SRC_URI=mirror://apache/myfaces/source/myfaces-core-1.1.4-src.tar.gz doc? ( jsf-1_1_01.zip )
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://myfaces.apache.org/
+RDEPEND=>=virtual/jre-1.4 >=dev-java/commons-logging-1.0 =dev-java/servletapi-2.4* =dev-java/jakarta-jstl-1.1* >=dev-java/java-config-2.2.0
