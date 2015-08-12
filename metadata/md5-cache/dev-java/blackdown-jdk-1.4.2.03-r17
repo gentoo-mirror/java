@@ -1,0 +1,14 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	versionator	cd0bcdb170807e4a1984115e9d53a26f	multilib	62927b3db3a589b0806255f3a002d5d3	prefix	21058c21ca48453d771df15500873ede	pax-utils	dfe060cb70d89757fde5c1ff8405e950	eutils	9fb270e417e0e83d64ca52586c4a79de	fdo-mime	acfe1a88fd8751a1d5dc671168219fa	java-vm-2	caa0212cf1c60716fd4b3ab09268be3e
+_md5_=b591bdd13dc91c5a7a43de9ca5095d9d
+SLOT=1.4.2
+DEFINED_PHASES=install postinst postrm prerm setup unpack
+EAPI=0
+DEPEND=>=dev-java/java-config-2.2.0 app-eselect/eselect-java
+DESCRIPTION=Blackdown Java Development Kit
+LICENSE=sun-bcla-java-vm
+IUSE=X alsa examples nsplugin odbc
+RESTRICT=strip
+SRC_URI=amd64? ( mirror://blackdown.org/JDK-1.4.2/amd64/03/j2sdk-1.4.2-03-linux-amd64.bin ) x86? ( mirror://blackdown.org/JDK-1.4.2/i386/03/j2sdk-1.4.2-03-linux-i586.bin )
+KEYWORDS=-* ~amd64 ~x86
+HOMEPAGE=http://www.blackdown.org
+RDEPEND=odbc? ( dev-db/unixODBC ) alsa? ( media-libs/alsa-lib ) x86? ( net-libs/libnet ) sys-libs/glibc X? ( x11-libs/libICE x11-libs/libSM x11-libs/libXext x11-libs/libXi x11-libs/libXp x11-libs/libXtst x11-libs/libXt x11-libs/libX11 ) >=dev-java/java-config-2.2.0 app-eselect/eselect-java
