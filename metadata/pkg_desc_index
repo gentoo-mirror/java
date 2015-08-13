@@ -51,7 +51,6 @@ dev-java/jamvm 2.0.0-r1: An extremely small and specification-compliant virtual 
 dev-java/janino 2.5.15: An embedded compiler for run-time compilation purposes
 dev-java/java-config 2.2.9999 2.9999: Java environment configuration tool
 dev-java/java3dsloader 1.2: Java3D 3DS FileLoader
-dev-java/javacsv 2.0: Java library for reading and writing CSV and plain delimited text files
 dev-java/javapp 0.4_p1: Java preprocessor with cpp-like syntax and Ant support
 dev-java/jdbc2-stdext 2.0-r3: A standard set of libs for Server-Side JDBC support
 dev-java/jdbm 1.0: Jdbm aims to be for Java what GDBM is for Perl, Python, C, ...
