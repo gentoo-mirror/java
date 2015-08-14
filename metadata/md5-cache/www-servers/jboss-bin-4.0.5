@@ -1,14 +1,14 @@
-_eclasses_=toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	java-pkg-2	bb9b8157d2a348d9ec42ce34a107fe0d	java-utils-2	7c8af272d218f7b7df22fd16bb0bfb63	versionator	99ae9d758cbe7cfed19170e7d48f5a9c	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	eutils	351a78113be5b393c09a2c948701ad36
-_md5_=44c81bab1930366fcf40b416dc20d05a
-SLOT=4
 DEFINED_PHASES=compile install postinst preinst setup
-EAPI=0
 DEPEND=ejb3? ( >=virtual/jdk-1.5 ) !ejb3? ( >=virtual/jdk-1.4 ) app-arch/unzip dev-java/ant-core dev-java/ant-contrib >=dev-java/java-config-2.2.0
 DESCRIPTION=An open source, standards-compliant, J2EE-based application server implemented in 100% Pure Java.
-LICENSE=LGPL-2
-IUSE=doc ejb3 srvdir elibc_FreeBSD
-RESTRICT=mirror
-SRC_URI=mirror://sourceforge/jboss/jboss-4.0.5.GA.zip ejb3? ( mirror://sourceforge/jboss/jboss-EJB-3.0_RC9_Patch_1.zip )
-KEYWORDS=~amd64 x86
+EAPI=0
 HOMEPAGE=http://www.jboss.org
+IUSE=doc ejb3 srvdir elibc_FreeBSD
+KEYWORDS=~amd64 x86
+LICENSE=LGPL-2
 RDEPEND=ejb3? ( >=virtual/jdk-1.5 ) !ejb3? ( >=virtual/jdk-1.4 ) >=dev-java/java-config-2.2.0
+RESTRICT=mirror
+SLOT=4
+SRC_URI=mirror://sourceforge/jboss/jboss-4.0.5.GA.zip ejb3? ( mirror://sourceforge/jboss/jboss-EJB-3.0_RC9_Patch_1.zip )
+_eclasses_=eutils	351a78113be5b393c09a2c948701ad36	java-pkg-2	bb9b8157d2a348d9ec42ce34a107fe0d	java-utils-2	7c8af272d218f7b7df22fd16bb0bfb63	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	user	906f3c8eb3a2350a4f1191a89baa3e46	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=a0df0403b96892ae0cd91ee8bcb55326
