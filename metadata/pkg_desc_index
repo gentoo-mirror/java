@@ -91,8 +91,7 @@ dev-java/ptplot 5.5: A Java plotting package
 dev-java/rife-continuations 0.1_pre20060304-r1: General-purpose library providing native continuations for Java.
 dev-java/saxon 8.8-r1: A collection of tools for processing XML documents: XSLT processor, XSL library, parser
 dev-java/seda 3.0-r1: A robust, high-performance platform for Internet services
-dev-java/sequence 1.1.7: A pure Java Subversion client library
-dev-java/sequence 1.2.0: Helper library for SVNKit
+dev-java/sequence 1.1.7 1.2.0: Helper library for SVNKit
 dev-java/sevenzipjbinding 4.65.1.04_rc: A Java wrapper around the native 7-Zip library
 dev-java/smoothmetal 1.1: A wrapper for some of Sun's Java Look and Feels to enable anti-aliasing.
 dev-java/sqlite-jdbc 3.7.2: SQLite JDBC driver from the Xerial project
