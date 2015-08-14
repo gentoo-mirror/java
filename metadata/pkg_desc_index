@@ -24,7 +24,6 @@ dev-java/fuse 0.3: Fuse is a lightweight resource injection library specifically
 dev-java/gcj-jdk 5.1.0-r1: Java wrappers around GCJ
 dev-java/gdata 1.46.0: The Google Data APIs (GData) provide a simple protocol for reading and writing data on the web
 dev-java/gef 0.12.3: Java Graph Editing Framework
-dev-java/gentoo-void-jar 1.0: a void jar
 dev-java/gjt-jpl-pattern 0.2-r1: A set of interfaces used to recognize well known design patterns in a software system.
 dev-java/gjt-jpl-util 0.6-r2: Collection of miscellaneous classes and methods that come in handy in all sorts of situations
 dev-java/gluegen 1_p20080421 2.0_rc8: GlueGen is a tool which automatically generates the Java and JNI code necessary to call C libraries
