@@ -3,7 +3,6 @@ app-eselect/eselect-java 9999: A set of eselect modules for Java
 dev-java/abbot 0.13.1-r1: Java GUI Test Framework.
 dev-java/asm 4.0_rc1: Bytecode manipulation framework for Java
 dev-java/asterisk-java 0.3.1: Java classes for interaction with an Asterisk PBX Server with support for FastAGI and Manager API.
-dev-java/axiom 1.2.2: Apache WSS4J is an implementation of the OASIS Web Services Security (WS-Security)
 dev-java/bare-bones-browser-launch 20090526: Simple browser launcher for Swing applications
 dev-java/buildmagic-tasks 2.0-r1 2.0.4: JBoss buildmagic tasks module
 dev-java/cacao 1.6.0-r3: Cacao Java Virtual Machine
@@ -80,7 +79,6 @@ dev-java/log4j-api 2.2: API for Java's Apache Log4j
 dev-java/log4j-core 2.2: Core component of Java's Apache Log4j
 dev-java/lwjgl 2.9.0: The Lightweight Java Game Library (LWJGL)
 dev-java/morfologik-stemming 1.1.4: Java implementation of a finite-state automaton (FSA) traversal routine
-dev-java/neethi 1.0.1 2.0: Apache WSS4J is an implementation of the OASIS Web Services Security (WS-Security)
 dev-java/netty-transport-native-epoll 4.0.21: Native Netty transport for Linux using JNI
 dev-java/nimrodlf 1.0g: NimROD Look and Feel.
 dev-java/objenesis 1.1: A small Java library with one purpose: To instantiate a new object of a class.
@@ -110,7 +108,6 @@ dev-java/uuid 3.1: An implementation of the UUIDs and GUIDs specification in Jav
 dev-java/vecmath 1.5.1: Sun J3D: 3D vector math package
 dev-java/vldocking 2.1.5: Docking solution for Java Swing
 dev-java/webwork 2.2.6: An action-based web framework for Java
-dev-java/ws-policy 1.0.1: Apache WSS4J is an implementation of the OASIS Web Services Security (WS-Security)
 dev-java/xbeans 2.00: Software component that takes XML as input and processes it in some fashion
 dev-java/xml-security 1.3.0: The XML Security project is aimed at providing implementation of security standards for XML.
 dev-java/xml-xmlbeans 2.6.0: An XML-Java binding tool.
