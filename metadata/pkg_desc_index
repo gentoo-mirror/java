@@ -21,7 +21,7 @@ dev-java/fast-md5 2.6.1: Fast MD5 Implementation in Java
 dev-java/filters 1.0 2.1.2: Java Image Processing Classes
 dev-java/flip 1.1.1: open source library of high-quality Java components
 dev-java/fuse 0.3: Fuse is a lightweight resource injection library specifically designed for GUI programming.
-dev-java/gcj-jdk 5.1.0-r1: Java wrappers around GCJ
+dev-java/gcj-jdk 5.1.0-r2: Java wrappers around GCJ
 dev-java/gdata 1.46.0: The Google Data APIs (GData) provide a simple protocol for reading and writing data on the web
 dev-java/gef 0.12.3: Java Graph Editing Framework
 dev-java/gjt-jpl-pattern 0.2-r1: A set of interfaces used to recognize well known design patterns in a software system.

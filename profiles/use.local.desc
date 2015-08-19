@@ -3,6 +3,7 @@
 # * generated automatically using pmaint *
 
 dev-java/ebean:scala - Enable Scala support.
+dev-java/gcj-jdk:awt - Install AWT libraries, needed by some GUIs (not needed to build icedtea)
 dev-java/gcj-jdk:javadoc - Provide javadoc using gjdoc from GNU Classpath.
 dev-java/gnu-classpath:alsa - Build with ALSA javax.sound.midi provider
 dev-java/gnu-classpath:dssi - Build with DSSI javax.sound.midi provider
