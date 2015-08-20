@@ -102,7 +102,6 @@ dev-java/swtcalendar 0.5: A port of Kai Toedter's JCalendar to Eclipse's SWT.
 dev-java/taglibrarydoc 1.3: Utility for automatically generating javadoc-style documentation for JavaServer Pages Technology Tag Libraries
 dev-java/trilead-ssh2 213: A library that implements the SSH2 protocol in pure Java
 dev-java/uuid 3.1: An implementation of the UUIDs and GUIDs specification in Java
-dev-java/vecmath 1.5.2: Sun J3D: 3D vector math package
 dev-java/vldocking 2.1.5: Docking solution for Java Swing
 dev-java/webwork 2.2.6: An action-based web framework for Java
 dev-java/xbeans 2.00: Software component that takes XML as input and processes it in some fashion
