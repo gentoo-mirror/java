@@ -70,7 +70,6 @@ dev-java/jsap 1.03a: Java Simple Arguments Parser (JSAP)
 dev-java/jsfapi 1.1.4: JavaServer Faces technology is a framework for building user interfaces for web applications
 dev-java/json 20110825: Java implementation of the JavaScript Object Notation
 dev-java/jwordsplitter 2.2: jWordSplitter a a small Java library that splits compound words into their parts.
-dev-java/libhttpd 1.0.3: Blommers IT java HTTP Server Library
 dev-java/liquidlnf 0.2.9: Provides a look and feel based on the Mosfet Liquid KDE 3.x theme
 dev-java/log4j-api 2.2: API for Java's Apache Log4j
 dev-java/log4j-core 2.2: Core component of Java's Apache Log4j
