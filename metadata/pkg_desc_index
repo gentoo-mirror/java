@@ -9,7 +9,6 @@ dev-java/cacao 1.6.0-r3: Cacao Java Virtual Machine
 dev-java/caucho-services 2.1.12-r1: The com.caucho.services package used by dev-java/hessian and dev-java/burlap.
 dev-java/cewolf 1.2.4: Cewolf is a tag library for charts of all kinds. It enables every JSP to easily embedd chart images.
 dev-java/classworlds 1.1: Advanced classloader framework
-dev-java/commons-email 1.1: Commons Email aims to provide a API for sending email.
 dev-java/dom4j 1.6.1-r4: Java library for working with XML
 dev-java/easymock 2.3: EasyMock generates Mock Objects for interfaces in JUnit tests on the fly
 dev-java/ebean 2.7.7: An ORM for Java from Avaje
