@@ -15,7 +15,6 @@ dev-java/ebean 2.7.7: An ORM for Java from Avaje
 dev-java/echo2extras 2.1.0: Echo2 Extras are additional components for the Echo Web Framework
 dev-java/eclipse-javax-persistence 2.1.0: Eclipse implementation of persistence API 2.1 (JSR 338)
 dev-java/eventbus 1.3: Pub-sub event broadcasting mechanism
-dev-java/explicitlayout 3.0: ExplicitLayout is a powerful layout manager for Java
 dev-java/fast-md5 2.6.1: Fast MD5 Implementation in Java
 dev-java/filters 1.0 2.1.2: Java Image Processing Classes
 dev-java/flip 1.1.1: open source library of high-quality Java components
@@ -51,10 +50,6 @@ dev-java/javapp 0.4_p1: Java preprocessor with cpp-like syntax and Ant support
 dev-java/jdbc2-stdext 2.0-r3: A standard set of libs for Server-Side JDBC support
 dev-java/jdbm 1.0: Jdbm aims to be for Java what GDBM is for Perl, Python, C, ...
 dev-java/jdic 0.9.1: The JDesktop Integration Components (JDIC) API
-dev-java/jersey-atom 1.1.0 1.1.0-r1: JAX-RS Reference Implementation for building RESTful Web services - atom
-dev-java/jersey-client 1.1.0 1.1.0-r1: JAX-RS Reference Implementation for building RESTful Web services - client
-dev-java/jersey-core 1.1.0 1.1.0-r1: JAX-RS Reference Implementation for building RESTful Web services - core
-dev-java/jersey-fastinfoset 1.1.0 1.1.0-r1: JAX-RS Reference Implementation for building RESTful Web services - fastinfoset
 dev-java/jhighlight 1.0: Small embeddable pure Java library for syntax highlighting
 dev-java/jmbus 1.0.7-r1: Java Message Bus (RFC 3259) library
 dev-java/joal 1.1.2: Java binding for OpenAL API
