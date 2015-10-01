@@ -100,7 +100,6 @@ dev-java/webwork 2.2.6: An action-based web framework for Java
 dev-java/xbeans 2.00: Software component that takes XML as input and processes it in some fashion
 dev-java/xml-security 1.3.0: The XML Security project is aimed at providing implementation of security standards for XML.
 dev-java/xml-xmlbeans 2.6.0: An XML-Java binding tool.
-dev-java/zonelayout 1.0: Simple, intuitive, powerful, source-code-based system for designing Graphical User Interfaces
 dev-lang/clojure 1.0.0-r1 1.0.0-r2 1.1.0: Clojure is a dynamic programming language that targets the Java Virtual Machine.
 dev-lang/clojure-contrib 1.0.0 1.1.0: User contributed packages for Clojure.
 dev-python/antlr-python 3.1.3-r2: The python runtime for antlr:3
