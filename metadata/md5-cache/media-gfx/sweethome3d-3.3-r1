@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RDEPEND=>=virtual/jre-1.5 >=dev-java/apple-java-extensions-bin-1.5:0 dev-java/freehep-graphics2d:0 dev-java/freehep-graphicsio:0 dev-java/freehep-graphicsio-svg:0 dev-java/freehep-util:0 dev-java/itext:0 dev-java/j3d-core:0 dev-java/janino:0 dev-java/java3dsloader:0 dev-java/jmf-bin:0 dev-java/jnlp-api dev-java/vecmath:0 >=dev-java/java-config-2.2.0
 SLOT=0
 SRC_URI=mirror://sourceforge/sweethome3d/SweetHome3D-3.3-src.zip http://dev.gentoo.org/~fordfrog/distfiles/sweethome3d.png http://www.polyquark.com/opensource/download/binariesAndSources.zip -> sunflow-0.7.3.zip
-_eclasses_=eutils	43da5163ba106e87d22d2e7d6d67537f	java-ant-2	946f77f25d457a91a2188c26f3e50b3e	java-pkg-2	b02dc1e46b3648e467b5fbdf7857cf28	java-pkg-simple	28bfda67a64cc63f4231290d7a22f4dc	java-utils-2	c059b30d6a4df7cf32e2c98c1da1c9b5	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_eclasses_=eutils	43da5163ba106e87d22d2e7d6d67537f	java-ant-2	946f77f25d457a91a2188c26f3e50b3e	java-pkg-2	b02dc1e46b3648e467b5fbdf7857cf28	java-pkg-simple	623b3c638bbbb8741f0e12a9db738c4a	java-utils-2	e03639b92617c43f3ca3d670af620cf5	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
 _md5_=9fb551022c13805c966dc0c704428205
