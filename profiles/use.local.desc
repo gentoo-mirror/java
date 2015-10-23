@@ -33,7 +33,6 @@ dev-java/icedtea-web:icedtea8 - Build icedtea-8 support in addition to icedtea-6
 dev-java/icedtea-web:javascript - Enable support for using proxy auto config (PAC) files.
 dev-java/icedtea-web:nsplugin - Enable the browser plugin (NPPlugin).
 dev-java/icedtea-web:tagsoup - Depend on dev-java/tagsoup which allows parsing malformed .jnlp files
-dev-java/jogl:cg - Enable NVidia Cg binding.
 dev-java/lwjgl:egl - Build with OpenGL ES support as well as OpenGL support
 media-sound/tuxguitar:fluidsynth - Enable FluidSynth support.
 www-servers/jboss-bin:ejb3 - Enable EJB3 support.
