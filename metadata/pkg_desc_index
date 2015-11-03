@@ -34,7 +34,6 @@ dev-java/high-scale-lib 1.1.2: A collection of Concurrent and Highly Scalable Ut
 dev-java/howl-logger 0.1.9-r1: HOWL is a logger implementation for the ObjectWeb JOTM project and TransactionManagers
 dev-java/icedtea 3.0.0_pre06 6.1.13.8-r1 6.9999 7.2.6.2 7.2.7.0_pre00: A harness to build OpenJDK using Free Software build tools and dependencies
 dev-java/icedtea-web 1.5.1-r1: FOSS Java browser plugin and Web Start implementation
-dev-java/ini4j 0.2.6-r1: Simple Java API Windows style .ini file handling
 dev-java/irmi 1.0.0-r1: Intercepting RMI implementation for the Java platform
 dev-java/itext 1.4: Java library that generate documents in the Portable Document Format (PDF) and/or HTML
 dev-java/izpack 3.10.2: IzPack is an installers generator for the Java platform.
