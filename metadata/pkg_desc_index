@@ -57,7 +57,6 @@ dev-java/joone-engine 2.0.0_rc1: Java Object Oriented Neural Engine
 dev-java/jopt-simple 4.5: A Java library for parsing command line options
 dev-java/jorbis 0.0.17-r1: JOrbis accepts Ogg Vorbis bitstreams and decodes them to raw PCM
 dev-java/joscar 0.9.3-r1: A Java library for AIM's OSCAR protocol
-dev-java/jpcap 0.7: Java library for capturing and sending network packets
 dev-java/jrosetta 1.0.2: Provides a common base for graphical component to build a graphical console.
 dev-java/jsap 1.03a: Java Simple Arguments Parser (JSAP)
 dev-java/jsfapi 1.1.4: JavaServer Faces technology is a framework for building user interfaces for web applications
