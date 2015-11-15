@@ -103,7 +103,7 @@ dev-util/lint4j-bin 0.9.1: Static Java source and byte code analyzer.
 dev-util/mtp 0.2.1 0.3.1: More Than Parsing - Parser and ASTs generator
 games-action/minecraft 1.2.1-r5: A game about placing blocks while running from skeletons. Or something like that...
 games-board/jin 2.14.1: Java client for various chess servers
-games-puzzle/lemmini 0.84: Java port of Lemmings, requires Lemmings for Windows
+games-puzzle/lemmini 0.86: Java port of Lemmings, requires Lemmings for Windows
 games-server/bukkit 1679: Generic API component of the plugin-based server mod for Minecraft
 games-server/minecraft-common 20130203: Common scripts for Minecraft servers
 games-server/minecraft-server 1.4.7-r1: Official dedicated server for Minecraft
