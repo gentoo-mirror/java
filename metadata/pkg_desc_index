@@ -32,7 +32,7 @@ dev-java/guava 10.0.1 12.0: A collection of Google's core Java libraries
 dev-java/h2 1.3.161: Java SQL Database
 dev-java/high-scale-lib 1.1.2: A collection of Concurrent and Highly Scalable Utilities.
 dev-java/howl-logger 0.1.9-r1: HOWL is a logger implementation for the ObjectWeb JOTM project and TransactionManagers
-dev-java/icedtea 3.0.0_pre06 6.9999 7.2.7.0_pre00: A harness to build OpenJDK using Free Software build tools and dependencies
+dev-java/icedtea 3.0.0_pre06 6.1.13.9 6.9999 7.2.6.3 7.2.7.0_pre00: A harness to build OpenJDK using Free Software build tools and dependencies
 dev-java/icedtea-web 1.5.1-r1: FOSS Java browser plugin and Web Start implementation
 dev-java/irmi 1.0.0-r1: Intercepting RMI implementation for the Java platform
 dev-java/itext 1.4: Java library that generate documents in the Portable Document Format (PDF) and/or HTML
