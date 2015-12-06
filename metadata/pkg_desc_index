@@ -84,7 +84,6 @@ dev-java/sevenzipjbinding 4.65.1.04_rc: A Java wrapper around the native 7-Zip l
 dev-java/smoothmetal 1.1: A wrapper for some of Sun's Java Look and Feels to enable anti-aliasing.
 dev-java/sqlite-jdbc 3.7.2: SQLite JDBC driver from the Xerial project
 dev-java/stempel 1.0: Algorithmic Stemmer for Polish Language
-dev-java/stripes 1.4.2: A java presentation framework for building web applications
 dev-java/sun-jce-bin 1.5.0: Sun's J2SE Cryptographic extensions, version 1.5.0
 dev-java/swt 3.4.1: GTK based SWT Library
 dev-java/swtcalendar 0.5: A port of Kai Toedter's JCalendar to Eclipse's SWT.
