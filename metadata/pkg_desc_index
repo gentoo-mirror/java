@@ -1,6 +1,5 @@
 app-eselect/eselect-gradle 0.1: Manage multiple Gradle versions on one system
 app-eselect/eselect-java 9999: A set of eselect modules for Java
-dev-java/abbot 0.13.1-r1: Java GUI Test Framework.
 dev-java/asm 4.0_rc1: Bytecode manipulation framework for Java
 dev-java/asterisk-java 0.3.1: Java classes for interaction with an Asterisk PBX Server with support for FastAGI and Manager API.
 dev-java/bare-bones-browser-launch 20090526: Simple browser launcher for Swing applications
@@ -52,13 +51,11 @@ dev-java/jhighlight 1.0: Small embeddable pure Java library for syntax highlight
 dev-java/jmbus 1.0.7-r1: Java Message Bus (RFC 3259) library
 dev-java/joal 1.1.2: Java binding for OpenAL API
 dev-java/joesnmp 0.3.3-r1 0.3.4: joeSNMP is an open-source Java SNMP class library published under the LGPL.
-dev-java/joone-engine 2.0.0_rc1: Java Object Oriented Neural Engine
 dev-java/jopt-simple 4.5: A Java library for parsing command line options
 dev-java/jorbis 0.0.17-r1: JOrbis accepts Ogg Vorbis bitstreams and decodes them to raw PCM
 dev-java/joscar 0.9.3-r1: A Java library for AIM's OSCAR protocol
 dev-java/jrosetta 1.0.2: Provides a common base for graphical component to build a graphical console.
 dev-java/jsap 1.03a: Java Simple Arguments Parser (JSAP)
-dev-java/jsfapi 1.1.4: JavaServer Faces technology is a framework for building user interfaces for web applications
 dev-java/jwordsplitter 2.2: jWordSplitter a a small Java library that splits compound words into their parts.
 dev-java/liquidlnf 0.2.9: Provides a look and feel based on the Mosfet Liquid KDE 3.x theme
 dev-java/log4j-api 2.2: API for Java's Apache Log4j
