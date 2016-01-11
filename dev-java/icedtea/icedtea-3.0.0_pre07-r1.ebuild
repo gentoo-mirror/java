@@ -303,7 +303,7 @@ src_compile() {
 	# With ant >=1.8.2 all required tasks are part of ant-core
 	export ANT_TASKS="none"
 
-	emake LDFLAGS=
+	emake
 }
 
 src_test() {
