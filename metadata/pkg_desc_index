@@ -53,7 +53,6 @@ dev-java/joesnmp 0.3.3-r1 0.3.4: joeSNMP is an open-source Java SNMP class libra
 dev-java/jopt-simple 4.5: A Java library for parsing command line options
 dev-java/jorbis 0.0.17-r1: JOrbis accepts Ogg Vorbis bitstreams and decodes them to raw PCM
 dev-java/joscar 0.9.3-r1: A Java library for AIM's OSCAR protocol
-dev-java/jrosetta 1.0.2: Provides a common base for graphical component to build a graphical console.
 dev-java/jsap 1.03a: Java Simple Arguments Parser (JSAP)
 dev-java/jwordsplitter 2.2: jWordSplitter a a small Java library that splits compound words into their parts.
 dev-java/liquidlnf 0.2.9: Provides a look and feel based on the Mosfet Liquid KDE 3.x theme
