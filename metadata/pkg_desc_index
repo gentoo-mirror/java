@@ -8,7 +8,6 @@ dev-java/cacao 1.6.0-r3: Cacao Java Virtual Machine
 dev-java/caucho-services 2.1.12-r1: The com.caucho.services package used by dev-java/hessian and dev-java/burlap.
 dev-java/cewolf 1.2.4: Cewolf is a tag library for charts of all kinds. It enables every JSP to easily embedd chart images.
 dev-java/classworlds 1.1: Advanced classloader framework
-dev-java/dom4j 1.6.1-r4: Java library for working with XML
 dev-java/easymock 2.3: EasyMock generates Mock Objects for interfaces in JUnit tests on the fly
 dev-java/ebean 2.7.7: An ORM for Java from Avaje
 dev-java/echo2extras 2.1.0: Echo2 Extras are additional components for the Echo Web Framework
@@ -43,7 +42,6 @@ dev-java/jamvm 2.0.0-r1: An extremely small and specification-compliant virtual 
 dev-java/janino 2.5.15: An embedded compiler for run-time compilation purposes
 dev-java/java-config 2.2.9999 2.9999: Java environment configuration tool
 dev-java/java3dsloader 1.2: Java3D 3DS FileLoader
-dev-java/javapp 0.4_p1: Java preprocessor with cpp-like syntax and Ant support
 dev-java/jdbm 1.0: Jdbm aims to be for Java what GDBM is for Perl, Python, C, ...
 dev-java/jdic 0.9.1: The JDesktop Integration Components (JDIC) API
 dev-java/jhighlight 1.0: Small embeddable pure Java library for syntax highlighting
@@ -99,7 +97,6 @@ games-puzzle/lemmini 0.86: Java port of Lemmings, requires Lemmings for Windows
 games-server/bukkit 1679: Generic API component of the plugin-based server mod for Minecraft
 games-server/minecraft-common 20130203: Common scripts for Minecraft servers
 games-server/minecraft-server 1.4.7-r1: Official dedicated server for Minecraft
-java-virtuals/jaxb-api 1 2-r1: Virtual for Java API for XML Binding (JAXB)
 media-gfx/sunflow 0.07.2 0.7.3: A rendering system for photo-realistic image synthesis.
 media-gfx/sweethome3d 3.3-r1: Sweet Home 3D is a free interior design application.
 media-libs/proxymusic 2.0: MusicXML library for Java
