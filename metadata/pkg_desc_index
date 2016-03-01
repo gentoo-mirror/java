@@ -108,6 +108,6 @@ media-sound/xenoplay 0.4.1: MusicXML player that can output MIDI files
 net-mail/davmail 3.9.1-r1: POP/IMAP/SMTP/Caldav/Carddav/LDAP Exchange Gateway
 sys-apps/baselayout-java 9999: Baselayout for Java
 virtual/gradle 0: Virtual for gradle
-virtual/jdk 1.8.0-r2: Virtual for Java Development Kit (JDK)
+virtual/jdk 1.8.0-r3: Virtual for Java Development Kit (JDK)
 www-servers/jboss-bin 4.0.5: An open source, standards-compliant, J2EE-based application server implemented in 100% Pure Java.
 www-servers/jigsaw 2.2.6: A Java-based web server from W3C
