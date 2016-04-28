@@ -56,7 +56,7 @@ dev-java/jwordsplitter 2.2: jWordSplitter a a small Java library that splits com
 dev-java/liquidlnf 0.2.9: Provides a look and feel based on the Mosfet Liquid KDE 3.x theme
 dev-java/log4j-api 2.2: API for Java's Apache Log4j
 dev-java/log4j-core 2.2: Core component of Java's Apache Log4j
-dev-java/lwjgl 2.9.0: The Lightweight Java Game Library (LWJGL)
+dev-java/lwjgl 2.9.3: The Lightweight Java Game Library (LWJGL)
 dev-java/morfologik-stemming 1.1.4: Java implementation of a finite-state automaton (FSA) traversal routine
 dev-java/netty-transport-native-epoll 4.0.21: Native Netty transport for Linux using JNI
 dev-java/nimrodlf 1.0g: NimROD Look and Feel.
