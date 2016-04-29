@@ -1,6 +1,5 @@
 app-eselect/eselect-gradle 0.1: Manage multiple Gradle versions on one system
 app-eselect/eselect-java 9999: A set of eselect modules for Java
-dev-java/asm 4.0_rc1: Bytecode manipulation framework for Java
 dev-java/asterisk-java 0.3.1: Java classes for interaction with an Asterisk PBX Server with support for FastAGI and Manager API.
 dev-java/bare-bones-browser-launch 20090526: Simple browser launcher for Swing applications
 dev-java/buildmagic-tasks 2.0-r1 2.0.4: JBoss buildmagic tasks module
