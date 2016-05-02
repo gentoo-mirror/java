@@ -50,7 +50,6 @@ dev-java/joesnmp 0.3.3-r1 0.3.4: joeSNMP is an open-source Java SNMP class libra
 dev-java/jopt-simple 4.5: A Java library for parsing command line options
 dev-java/jorbis 0.0.17-r1: JOrbis accepts Ogg Vorbis bitstreams and decodes them to raw PCM
 dev-java/joscar 0.9.3-r1: A Java library for AIM's OSCAR protocol
-dev-java/jsap 1.03a: Java Simple Arguments Parser (JSAP)
 dev-java/jwordsplitter 2.2: jWordSplitter a a small Java library that splits compound words into their parts.
 dev-java/liquidlnf 0.2.9: Provides a look and feel based on the Mosfet Liquid KDE 3.x theme
 dev-java/log4j-api 2.2: API for Java's Apache Log4j
@@ -89,7 +88,6 @@ dev-lang/clojure-contrib 1.0.0 1.1.0: User contributed packages for Clojure.
 dev-python/antlr-python 3.1.3-r2: The python runtime for antlr:3
 dev-util/eclipse-sdk-bin 4.2.0 4.2.1 4.2.1-r1: Eclipse SDK
 dev-util/lint4j-bin 0.9.1: Static Java source and byte code analyzer.
-dev-util/mtp 0.2.1 0.3.1: More Than Parsing - Parser and ASTs generator
 games-action/minecraft 1.2.1-r5: A game about placing blocks while running from skeletons. Or something like that...
 games-board/jin 2.14.1: Java client for various chess servers
 games-puzzle/lemmini 0.86: Java port of Lemmings, requires Lemmings for Windows
