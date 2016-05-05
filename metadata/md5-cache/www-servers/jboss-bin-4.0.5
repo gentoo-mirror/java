@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst preinst setup
-DEPEND=ejb3? ( >=virtual/jdk-1.5 ) !ejb3? ( >=virtual/jdk-1.4 ) app-arch/unzip dev-java/ant-core dev-java/ant-contrib >=dev-java/java-config-2.2.0-r3
+DEPEND=ejb3? ( >=virtual/jdk-1.5 ) !ejb3? ( >=virtual/jdk-1.4 ) app-arch/unzip dev-java/ant-core dev-java/ant-contrib >=dev-java/java-config-2.2.0-r3 >=sys-apps/portage-2.1.2.7
 DESCRIPTION=An open source, standards-compliant, J2EE-based application server implemented in 100% Pure Java.
 EAPI=0
 HOMEPAGE=http://www.jboss.org
 IUSE=doc ejb3 srvdir elibc_FreeBSD
 KEYWORDS=~amd64 x86
 LICENSE=LGPL-2
-RDEPEND=ejb3? ( >=virtual/jdk-1.5 ) !ejb3? ( >=virtual/jdk-1.4 ) >=dev-java/java-config-2.2.0-r3
+RDEPEND=ejb3? ( >=virtual/jdk-1.5 ) !ejb3? ( >=virtual/jdk-1.4 ) >=dev-java/java-config-2.2.0-r3 >=sys-apps/portage-2.1.2.7
 RESTRICT=mirror
 SLOT=4
 SRC_URI=mirror://sourceforge/jboss/jboss-4.0.5.GA.zip ejb3? ( mirror://sourceforge/jboss/jboss-EJB-3.0_RC9_Patch_1.zip )

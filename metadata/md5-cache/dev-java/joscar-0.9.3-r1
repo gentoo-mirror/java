@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install preinst setup
-DEPEND=>=virtual/jdk-1.4 >=dev-java/ant-core-1.5 >=dev-java/java-config-2.2.0-r3
+DEPEND=>=virtual/jdk-1.4 >=dev-java/ant-core-1.5 >=dev-java/java-config-2.2.0-r3 >=sys-apps/portage-2.1.2.7
 DESCRIPTION=A Java library for AIM's OSCAR protocol
 EAPI=0
 HOMEPAGE=http://joust.kano.net/joscar
 IUSE=doc elibc_FreeBSD
 KEYWORDS=~x86 ~amd64
 LICENSE=BSD
-RDEPEND=>=virtual/jre-1.4 >=dev-java/java-config-2.2.0-r3
+RDEPEND=>=virtual/jre-1.4 >=dev-java/java-config-2.2.0-r3 >=sys-apps/portage-2.1.2.7
 SLOT=0
 SRC_URI=mirror://sourceforge/joustim/joscar-0.9.3-src.tar.bz2
 _eclass_exported_funcs=pkg_preinst:java-pkg-2 pkg_setup:java-pkg-2 src_compile:java-pkg-2 src_install:-
