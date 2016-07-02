@@ -2,39 +2,32 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-# This file contains descriptions of local USE flags, and the ebuilds which
-# contain them.
-
-# Keep it sorted.
-dev-java/jogl:cg - Enable nvidia cg bindings
-dev-db/hsqldb:sqltools - Add data managment tools
-dev-java/quartz:servlet-2.3 - Use the 2.3 servlet specification
-dev-java/quartz:servlet-2.4 - Use the 2.4 servlet specification
-
-dev-java/geronimo-specs:activation - Enable to install the 'activation' geronimo specification
-dev-java/geronimo-specs:commonj - Enable to install the 'commonj' geronimo specification
-dev-java/geronimo-specs:corba - Enable to install the 'corba' geronimo specification
-dev-java/geronimo-specs:corba-2.3 - Enable to install the 'corba-2.3' geronimo specification
-dev-java/geronimo-specs:corba-3.0 - Enable to install the 'corba-3.0' geronimo specification
-dev-java/geronimo-specs:ejb - Enable to install the 'ejb' geronimo specification
-dev-java/geronimo-specs:j2ee-connector - Enable to install the 'j2ee-connector' geronimo specification
-dev-java/geronimo-specs:j2ee-deployment - Enable to install the 'j2ee-deployment' geronimo specification
-dev-java/geronimo-specs:j2ee-jacc - Enable to install the 'j2ee-jacc' geronimo specification
-dev-java/geronimo-specs:j2ee-management - Enable to install the 'j2ee-management' geronimo specification
-dev-java/geronimo-specs:javamail - Enable to install the 'javamail' geronimo specification
-dev-java/geronimo-specs:jaxr - Enable to install the 'jaxr' geronimo specification
-dev-java/geronimo-specs:jaxrpc - Enable to install the 'jaxrpc' geronimo specification
-dev-java/geronimo-specs:jms - Enable to install the 'jms' geronimo specification
-dev-java/geronimo-specs:jsp - Enable to install the 'jsp' geronimo specification
-dev-java/geronimo-specs:jta - Enable to install the 'jta' geronimo specification
-dev-java/geronimo-specs:qname - Enable to install the 'qname' geronimo specification
-dev-java/geronimo-specs:saaj - Enable to install the 'saaj' geronimo specification
-dev-java/geronimo-specs:servlet - Enable to install the 'servlet' geronimo specification
-
-dev-java/guice:servletapi - Add optional support for servletapi
-
-dev-java/jboss-commons-logging:avalon-logkit - Add support for avalon-logkit
-dev-java/jboss-commons-logging:log4j - Add support for log4j
-dev-java/jboss-commons-logging:servletapi - Add support for servletapi
-dev-java/jboss-commons-logging:avalon-framework - Add support for avalon-framework
-media-sound/tuxguitar:fluidsynth - compile with support for fluidsynth
+dev-java/ebean:scala - Enable Scala support.
+dev-java/gcj-jdk:awt - Install AWT libraries, needed by some GUIs (not needed to build icedtea)
+dev-java/gcj-jdk:javadoc - Provide javadoc using gjdoc from GNU Classpath.
+dev-java/gnu-classpath:alsa - Build with ALSA javax.sound.midi provider
+dev-java/gnu-classpath:dssi - Build with DSSI javax.sound.midi provider
+dev-java/gnu-classpath:gconf - Build with GConf preferences backend
+dev-java/gnu-classpath:gjdoc - Build GJDoc, a documentation generator
+dev-java/gnu-classpath:gmp - Build with GMP backend for java.math.BigInteger
+dev-java/gnu-classpath:gstreamer - Build with GStreamer javax.sound.sampler provider
+dev-java/gnu-classpath:gtk - Build with Gtk+ AWT peers
+dev-java/gnu-classpath:qt4 - Build with Qt4 AWT peers
+dev-java/gnu-classpath:xml - Build with native XML backend
+dev-java/icedtea:cacao - Use the CACAO virtual machine rather than HotSpot.
+dev-java/icedtea:cups - Link against the CUPS library at compile time, rather than using it dynamically at runtime.
+dev-java/icedtea:headless-awt - Don't install the X backend for AWT, needed by some GUIs (used to be X flag)
+dev-java/icedtea:infinality - Enable better font rendering using fontconfig.
+dev-java/icedtea:jamvm - Use the JamVM virtual machine rather than HotSpot.
+dev-java/icedtea:jbootstrap - If possible, recompile the final IcedTea executables with itself.
+dev-java/icedtea:nsplugin - Enable browser plugin (NPPlugin), requires also the webstart flag to be enabled.
+dev-java/icedtea:nss - Enable NSS security provider support.
+dev-java/icedtea:pax_kernel - Apply patch needed for pax enabled kernels.
+dev-java/icedtea:sctp - Build the SCTP NIO channel implementation against lksctp
+dev-java/icedtea:smartcard - Build the PCSC driver against pcsc-lite
+dev-java/icedtea:sunec - Build the SunEC provider against system NSS
+dev-java/icedtea:systemtap - Enable SystemTap probes in HotSpot.
+dev-java/icedtea:webstart - Enable Web Start support (via NetX).
+dev-java/icedtea:zero - Enable Zero assembler port (usually for non-HotSpot architectures)
+dev-java/lwjgl:gles - Build with OpenGL ES support as well as OpenGL support
+media-sound/tuxguitar:fluidsynth - Enable FluidSynth support.
