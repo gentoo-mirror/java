@@ -24,6 +24,7 @@ dev-java/icedtea:nsplugin - Enable browser plugin (NPPlugin), requires also the 
 dev-java/icedtea:nss - Enable NSS security provider support.
 dev-java/icedtea:pax_kernel - Apply patch needed for pax enabled kernels.
 dev-java/icedtea:sctp - Build the SCTP NIO channel implementation against lksctp
+dev-java/icedtea:shenandoah - Include the Shenandoah ultra-low pause time garbage collector (-XX:+UseShenandoahGC) (x86_64 only)
 dev-java/icedtea:smartcard - Build the PCSC driver against pcsc-lite
 dev-java/icedtea:sunec - Build the SunEC provider against system NSS
 dev-java/icedtea:systemtap - Enable SystemTap probes in HotSpot.
