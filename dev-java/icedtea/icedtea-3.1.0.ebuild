@@ -10,7 +10,7 @@
 EAPI="5"
 SLOT="8"
 
-inherit check-reqs gnome2-utils java-pkg-2 java-vm-2 multiprocessing pax-utils prefix versionator virtualx
+inherit check-reqs gnome2-utils java-pkg-2 java-vm-2 multiprocessing pax-utils prefix versionator
 
 ICEDTEA_VER=$(get_version_component_range 1-3)
 ICEDTEA_BRANCH=$(get_version_component_range 1-2)
@@ -66,7 +66,7 @@ SRC_URI="
 LICENSE="Apache-1.1 Apache-2.0 GPL-1 GPL-2 GPL-2-with-linking-exception LGPL-2 MPL-1.0 MPL-1.1 public-domain W3C"
 KEYWORDS="~amd64"
 
-IUSE="+alsa cacao cjk +cups doc examples +gtk headless-awt infinality
+IUSE="+alsa cacao +cups doc examples +gtk headless-awt infinality
 	jamvm +jbootstrap libressl nsplugin pax_kernel
 	pulseaudio sctp selinux shenandoah smartcard +source +sunec test +webstart zero"
 
@@ -101,10 +101,11 @@ COMMON_DEP="
 	>=dev-libs/glib-2.26:2
 	>=dev-util/systemtap-1
 	media-libs/fontconfig
-	>=media-libs/freetype-2.5.3:2=[infinality?]
 	>=media-libs/lcms-2.5
 	>=sys-libs/zlib-1.2.3:=
 	virtual/jpeg:0=
+	!infinality? ( >=media-libs/freetype-2.5.3:2= )
+	infinality? ( <media-libs/freetype-2.6.4:2=[infinality] )
 	sctp? ( net-misc/lksctp-tools )
 	smartcard? ( sys-apps/pcsc-lite )
 	sunec? ( >=dev-libs/nss-3.16.1-r1 )"
@@ -115,15 +116,8 @@ RDEPEND="${COMMON_DEP}
 	!dev-java/icedtea:0
 	!dev-java/icedtea-web:7
 	>=gnome-base/gsettings-desktop-schemas-3.12.2
-	media-fonts/dejavu
+	virtual/ttf-fonts
 	alsa? ( ${ALSA_COMMON_DEP} )
-	cjk? (
-		media-fonts/arphicfonts
-		media-fonts/baekmuk-fonts
-		media-fonts/lklug
-		media-fonts/lohit-fonts
-		media-fonts/sazanami
-	)
 	cups? ( ${CUPS_COMMON_DEP} )
 	gtk? (
 		>=dev-libs/atk-1.30.0
@@ -324,9 +318,12 @@ src_configure() {
 		${zero_config} ${cacao_config} ${jamvm_config} ${hs_config}
 }
 
+src_compile() {
+	default
+}
+
 src_test() {
-	# Currently doesn't need display as we disable JDK jtreg tests
-	emake check
+	default
 }
 
 src_install() {
