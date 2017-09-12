@@ -101,7 +101,6 @@ media-sound/jripper 1.02.1: jRipper, a Java frontend to CD ripper and encoder to
 media-sound/jsynthlib 0.20.0: Java-based MIDI hardware SysEx librarian
 media-sound/tuxguitar 1.1-r1: TuxGuitar is a multitrack guitar tablature editor and player written in Java-SWT
 media-sound/xenoplay 0.4.1: MusicXML player that can output MIDI files
-net-mail/davmail 3.9.1-r1: POP/IMAP/SMTP/Caldav/Carddav/LDAP Exchange Gateway
 sys-apps/baselayout-java 9999: Baselayout for Java
 virtual/gradle 0: Virtual for gradle
 www-servers/jigsaw 2.2.6: A Java-based web server from W3C
