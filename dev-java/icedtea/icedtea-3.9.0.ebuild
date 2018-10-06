@@ -1,5 +1,6 @@
 # Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
+
 # Build written by Andrew John Hughes (gnu_andrew@member.fsf.org)
 
 # *********************************************************
@@ -280,14 +281,6 @@ src_configure() {
 		zero_config="--enable-zero"
 	fi
 
-	# Warn about potential problems with ccache enabled
-	if has ccache ${FEATURES}; then
-		ewarn 'ccache has been known to break IcedTea. Disable it before filing bugs.'
-		config+=" --enable-ccache"
-	else
-		config+=" --disable-ccache"
-	fi
-
 	# PaX breaks pch, bug #601016
 	if use pch && ! host-is-pax; then
 		config+=" --enable-precompiled-headers"
@@ -315,6 +308,7 @@ src_configure() {
 		--docdir="${EPREFIX}/usr/share/doc/${PF}" \
 		--htmldir="${EPREFIX}/usr/share/doc/${PF}/html" \
 		--with-pkgversion="Gentoo ${PF}" \
+		--disable-ccache \
 		--disable-downloading --disable-Werror --disable-tests \
 		--disable-systemtap-tests --enable-improved-font-rendering \
 		--enable-system-jpeg --enable-system-zlib \
