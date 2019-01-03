@@ -1,6 +1,5 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI=5
 AUTOTOOLS_AUTO_DEPEND="no"
@@ -62,27 +61,31 @@ src_install() {
 
 	emake DESTDIR="${D}" install || die "make install failed"
 	dodir /usr/bin
-	dosym /usr/libexec/${PN}/cacao /usr/bin/cacao || die
+	dosym ../libexec/${PN}/cacao /usr/bin/cacao || die
 	dodoc AUTHORS ChangeLog* NEWS README || die "failed to install docs"
 
 	dodir ${JDK_DIR}/bin
-	dosym /usr/libexec/${PN}/cacao ${JDK_DIR}/bin/java
-	for files in ${CLASSPATH_DIR}/g*; do
-		if [ $files = "${CLASSPATH_DIR}/bin/gjdoc" ] ; then
-			dosym $files ${JDK_DIR}/bin/javadoc || die
-		else
-			dosym $files \
-				${JDK_DIR}/bin/$(echo $files|sed "s#$(dirname $files)/g##") || die
-		fi
-	done
+	dosym ../../../libexec/${PN}/cacao ${JDK_DIR}/bin/java
 
 	dodir ${JDK_DIR}/jre/lib
-	dosym /usr/share/classpath/glibj.zip ${JDK_DIR}/jre/lib/rt.jar
+	dosym ../../../../share/classpath/glibj.zip ${JDK_DIR}/jre/lib/rt.jar
 	dodir ${JDK_DIR}/lib
-	dosym /usr/share/classpath/tools.zip ${JDK_DIR}/lib/tools.jar
+	dosym ../../../share/classpath/tools.zip ${JDK_DIR}/lib/tools.jar
+
+	exeinto ${JDK_DIR}/bin
+	for files in ${CLASSPATH_DIR}/g*; do
+		# Need to alter scripts to make sure our VM is invoked
+		if [ $files = "${CLASSPATH_DIR}/bin/gjdoc" ] ; then
+			dest=javadoc
+		else
+			dest=$(echo $files|sed "s#$(dirname $files)/g##")
+		fi
+		cat ${files} | \
+			sed -e "s#/usr/bin/java#/usr/libexec/${PN}/cacao#" | \
+			newexe - ${dest}
+	done
 
 	local ecj_jar="$(readlink "${EPREFIX}"/usr/share/eclipse-ecj/ecj.jar)"
-	exeinto ${JDK_DIR}/bin
 	cat "${FILESDIR}"/javac.in | sed -e "s#@JAVA@#/usr/libexec/${PN}/cacao#" \
 		-e "s#@ECJ_JAR@#${ecj_jar}#" \
 		-e "s#@RT_JAR@#/usr/share/classpath/glibj.zip#" \
@@ -94,15 +97,15 @@ src_install() {
 	[ ${ARCH} == x86_64 ] && libarch="amd64"
 	dodir ${JDK_DIR}/jre/lib/${libarch}/client
 	dodir ${JDK_DIR}/jre/lib/${libarch}/server
-	dosym /usr/${libdir}/${PN}/libjvm.so ${JDK_DIR}/jre/lib/${libarch}/client/libjvm.so
-	dosym /usr/${libdir}/${PN}/libjvm.so ${JDK_DIR}/jre/lib/${libarch}/server/libjvm.so
-	dosym /usr/${libdir}/classpath/libjawt.so ${JDK_DIR}/jre/lib/${libarch}/libjawt.so
+	dosym ../../../../../../${libdir}/${PN}/libjvm.so ${JDK_DIR}/jre/lib/${libarch}/client/libjvm.so
+	dosym ../../../../../../${libdir}/${PN}/libjvm.so ${JDK_DIR}/jre/lib/${libarch}/server/libjvm.so
+	dosym ../../../../../${libdir}/classpath/libjawt.so ${JDK_DIR}/jre/lib/${libarch}/libjawt.so
 	set_java_env
 
 	# Can't use java-vm_set-pax-markings as doesn't work with symbolic links
 	# Ensure a PaX header is created.
 	local pax_markings="C"
-	# Usally disabeling MPROTECT is sufficent.
+	# Usually dislabeling MPROTECT is sufficent.
 	local pax_markings+="m"
 	# On x86 for heap sizes over 700MB disable SEGMEXEC and PAGEEXEC as well.
 	use x86 && pax_markings+="sp"
