@@ -1,4 +1,4 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 # Build written by Andrew John Hughes (gnu_andrew@member.fsf.org)
@@ -17,16 +17,16 @@ ICEDTEA_BRANCH=$(get_version_component_range 1-2)
 ICEDTEA_PKG=icedtea-${ICEDTEA_VER}
 ICEDTEA_PRE=$(get_version_component_range _)
 
-CORBA_TARBALL="fa1553d2f23e.tar.xz"
-JAXP_TARBALL="7a977b82f34c.tar.xz"
-JAXWS_TARBALL="752d9e54c69a.tar.xz"
-JDK_TARBALL="bfaa5c6df4a8.tar.xz"
-LANGTOOLS_TARBALL="fb494039358f.tar.xz"
-OPENJDK_TARBALL="f0482b9b7f7b.tar.xz"
-NASHORN_TARBALL="93462e8b4f4f.tar.xz"
-HOTSPOT_TARBALL="3f9a60eb8ef0.tar.xz"
-SHENANDOAH_TARBALL="adb62c0031b8.tar.xz"
-AARCH32_TARBALL="57f4048a925b.tar.xz"
+CORBA_TARBALL="f59374a41938.tar.xz"
+JAXP_TARBALL="f42bdc74d2f5.tar.xz"
+JAXWS_TARBALL="4dee0def390a.tar.xz"
+JDK_TARBALL="c2f574d16c2f.tar.xz"
+LANGTOOLS_TARBALL="9cb3b18d9139.tar.xz"
+OPENJDK_TARBALL="c0ec72b715dd.tar.xz"
+NASHORN_TARBALL="04210bbb67cd.tar.xz"
+HOTSPOT_TARBALL="f76744714698.tar.xz"
+SHENANDOAH_TARBALL="9fcff2250bb4.tar.xz"
+AARCH32_TARBALL="4107aea57664.tar.xz"
 
 CACAO_TARBALL="cacao-c182f119eaad.tar.xz"
 JAMVM_TARBALL="jamvm-ec18fb9e49e62dce16c5094ef1527eed619463aa.tar.gz"
