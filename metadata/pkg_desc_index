@@ -39,6 +39,7 @@ dev-java/jama 1.0.2: A Java matrix package
 dev-java/jaminid 0.99-r3: Jaminid is a very small daemon meant to embed in Java applications as an add-on HTTP interface.
 dev-java/jamvm 2.0.0-r1: An extremely small and specification-compliant virtual machine
 dev-java/janino 2.5.15: An embedded compiler for run-time compilation purposes
+dev-java/java-config 2.2.9999 2.9999: Java environment configuration tool
 dev-java/java3dsloader 1.2: Java3D 3DS FileLoader
 dev-java/jdbm 1.0: Jdbm aims to be for Java what GDBM is for Perl, Python, C, ...
 dev-java/jdic 0.9.1: The JDesktop Integration Components (JDIC) API
