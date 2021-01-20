@@ -100,5 +100,6 @@ media-plugins/tuxguitar-plugins-alsa 0.8.1-r1: ALSA plugin for TuxGuitar
 media-sound/jripper 1.02.1: jRipper, a Java frontend to CD ripper and encoder tools
 media-sound/jsynthlib 0.20.0: Java-based MIDI hardware SysEx librarian
 media-sound/xenoplay 0.4.1: MusicXML player that can output MIDI files
+sys-apps/baselayout-java 9999: Baselayout for Java
 virtual/gradle 0: Virtual for gradle
 www-servers/jigsaw 2.2.6: A Java-based web server from W3C
