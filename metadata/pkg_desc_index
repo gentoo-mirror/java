@@ -1,7 +1,6 @@
 app-eselect/eselect-gradle 0.1-r1: Manage multiple Gradle versions on one system
 app-eselect/eselect-java 9999: A set of eselect modules for Java
 dev-java/asterisk-java 0.3.1: Java classes for interaction with an Asterisk PBX Server with support for FastAGI and Manager API.
-dev-java/bare-bones-browser-launch 20090526: Simple browser launcher for Swing applications
 dev-java/buildmagic-tasks 2.0-r1 2.0.4: JBoss buildmagic tasks module
 dev-java/cacao 1.6.0-r4: Cacao Java Virtual Machine
 dev-java/caucho-services 2.1.12-r1: The com.caucho.services package used by dev-java/hessian and dev-java/burlap.
@@ -11,8 +10,6 @@ dev-java/easymock 2.3: EasyMock generates Mock Objects for interfaces in JUnit t
 dev-java/ebean 2.7.7: An ORM for Java from Avaje
 dev-java/echo2extras 2.1.0: Echo2 Extras are additional components for the Echo Web Framework
 dev-java/eclipse-javax-persistence 2.1.0: Eclipse implementation of persistence API 2.1 (JSR 338)
-dev-java/eventbus 1.3: Pub-sub event broadcasting mechanism
-dev-java/fast-md5 2.6.1: Fast MD5 Implementation in Java
 dev-java/filters 1.0 2.1.2: Java Image Processing Classes
 dev-java/flip 1.1.1: open source library of high-quality Java components
 dev-java/fuse 0.3: Fuse is a lightweight resource injection library specifically designed for GUI programming.
@@ -35,7 +32,6 @@ dev-java/itext 1.4: Java library that generate documents in the Portable Documen
 dev-java/izpack 3.10.2: IzPack is an installers generator for the Java platform.
 dev-java/j3d-core 1.5.1: Java3D Core API and Utils package
 dev-java/jai-imageio 1.1-r1: A library for managing images based on JAI
-dev-java/jama 1.0.2: A Java matrix package
 dev-java/jaminid 0.99-r3: Jaminid is a very small daemon meant to embed in Java applications as an add-on HTTP interface.
 dev-java/jamvm 2.0.0-r1: An extremely small and specification-compliant virtual machine
 dev-java/janino 2.5.15: An embedded compiler for run-time compilation purposes
@@ -85,18 +81,11 @@ dev-lang/clojure 1.0.0-r1 1.0.0-r2 1.1.0: Clojure is a dynamic programming langu
 dev-lang/clojure-contrib 1.0.0 1.1.0: User contributed packages for Clojure.
 dev-util/eclipse-sdk-bin 4.2.0 4.2.1 4.2.1-r1: Eclipse SDK
 dev-util/lint4j-bin 0.9.1: Static Java source and byte code analyzer.
-games-board/jin 2.14.1: Java client for various chess servers
-games-puzzle/lemmini 0.86: Java port of Lemmings, requires Lemmings for Windows
-games-server/bukkit 1679: Generic API component of the plugin-based server mod for Minecraft
-games-server/minecraft-common 20130203: Common scripts for Minecraft servers
-games-server/minecraft-server 1.4.7-r1: Official dedicated server for Minecraft
 media-gfx/sunflow 0.07.2 0.7.3: A rendering system for photo-realistic image synthesis.
 media-gfx/sweethome3d 3.3-r1: Sweet Home 3D is a free interior design application.
-media-libs/proxymusic 2.0: MusicXML library for Java
 media-plugins/tuxguitar-plugins-alsa 0.8.1-r1: ALSA plugin for TuxGuitar
 media-sound/jripper 1.02.1: jRipper, a Java frontend to CD ripper and encoder tools
 media-sound/jsynthlib 0.20.0: Java-based MIDI hardware SysEx librarian
-media-sound/xenoplay 0.4.1: MusicXML player that can output MIDI files
 sys-apps/baselayout-java 9999: Baselayout for Java
 virtual/gradle 0: Virtual for gradle
 www-servers/jigsaw 2.2.6: A Java-based web server from W3C
