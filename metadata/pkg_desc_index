@@ -1,4 +1,4 @@
-app-eselect/eselect-gradle 0.1-r1 9999: Manage multiple Gradle versions on one system
+app-eselect/eselect-gradle 0.2 9999: Manage multiple Gradle versions on one system
 app-eselect/eselect-java 9999: A set of eselect modules for Java
 dev-java/cacao 1.6.0-r4: Cacao Java Virtual Machine
 dev-java/cewolf 1.2.4: Cewolf is a tag library for charts of all kinds. It enables every JSP to easily embedd chart images.
