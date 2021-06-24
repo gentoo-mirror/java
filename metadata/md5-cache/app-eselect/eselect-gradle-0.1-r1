@@ -1,9 +1,9 @@
 DEFINED_PHASES=install
 DESCRIPTION=Manage multiple Gradle versions on one system
-EAPI=4
-HOMEPAGE=http://www.gentoo.org
+EAPI=7
+HOMEPAGE=https://wiki.gentoo.org/wiki/Project:Java
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=app-admin/eselect
 SLOT=0
-_md5_=4b1fd5b33bcff32546832ba69e32cf11
+_md5_=c7c87014221218ee6fb09ad3a6fc39d2
