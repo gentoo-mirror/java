@@ -1,4 +1,3 @@
-app-eselect/eselect-gradle 0.2 9999: Manage multiple Gradle versions on one system
 app-eselect/eselect-java 9999: A set of eselect modules for Java
 dev-java/cacao 1.6.0-r4: Cacao Java Virtual Machine
 dev-java/cewolf 1.2.4: Cewolf is a tag library for charts of all kinds. It enables every JSP to easily embedd chart images.
@@ -7,7 +6,7 @@ dev-java/gcj-jdk 5.4.0-r1: Java wrappers around GCJ
 dev-java/gjt-jpl-util 0.6-r2: Collection of miscellaneous classes and methods that come in handy in all sorts of situations
 dev-java/gnu-classpath 0.99-r2 9999: Free core class libraries for use with VMs and compilers for the Java language
 dev-java/gradle 3.1: A project automation and build tool with a Groovy based DSL
-dev-java/gradle-bin 4.10.3 5.6.2 6.8.3 7.1: A project automation and build tool with a Groovy based DSL
+dev-java/gradle-bin 4.10.3 5.6.2: A project automation and build tool with a Groovy based DSL
 dev-java/h2 1.3.176: Java SQL Database
 dev-java/icedtea 3.16.0 3.17.0_pre00 7.2.6.22 7.2.7.0_pre15: A harness to build OpenJDK using Free Software build tools and dependencies
 dev-java/jamvm 2.0.0-r1: An extremely small and specification-compliant virtual machine
