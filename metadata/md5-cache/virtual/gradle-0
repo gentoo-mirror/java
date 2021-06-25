@@ -1,7 +1,7 @@
 DEFINED_PHASES=-
 DESCRIPTION=Virtual for gradle
-EAPI=0
+EAPI=7
 KEYWORDS=~amd64 ~x86
 RDEPEND=|| ( dev-java/gradle-bin dev-java/gradle )
 SLOT=0
-_md5_=45a5dcad5f8ff4c0c6efc86358571a32
+_md5_=38bc69309170f0cf8f474653b251361b
