@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install postinst postrm
+DEPEND=app-eselect/eselect-gradle
+DESCRIPTION=A project automation and build tool with a Groovy based DSL
+EAPI=7
+HOMEPAGE=https://www.gradle.org/
+INHERIT=gradle
+KEYWORDS=~amd64 ~x86
+LICENSE=Apache-2.0
+RDEPEND=>=virtual/jdk-1.8:*
+RESTRICT=network-sandbox
+SLOT=7.1.0
+SRC_URI=https://github.com/gradle/gradle/archive/refs/tags/v7.1.0.tar.gz -> gradle-7.1.0.tar.gz
+_eclasses_=gradle	db33fd19f588c0cc685fc18e0aec719e
+_md5_=3c2d3dc900f840de7faf382697ba1d2c
