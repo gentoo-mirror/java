@@ -1,5 +1,4 @@
 app-eselect/eselect-java 9999: A set of eselect modules for Java
-dev-java/cacao 1.6.0-r4: Cacao Java Virtual Machine
 dev-java/cewolf 1.2.4: Cewolf is a tag library for charts of all kinds. It enables every JSP to easily embedd chart images.
 dev-java/eclipse-javax-persistence 2.1.0: Eclipse implementation of persistence API 2.1 (JSR 338)
 dev-java/gcj-jdk 5.4.0-r1: Java wrappers around GCJ
@@ -8,7 +7,6 @@ dev-java/gnu-classpath 0.99-r2 9999: Free core class libraries for use with VMs 
 dev-java/gradle 7.1.0: A project automation and build tool with a Groovy based DSL
 dev-java/gradle-bin 4.10.3 5.6.2: A project automation and build tool with a Groovy based DSL
 dev-java/h2 1.3.176: Java SQL Database
-dev-java/jamvm 2.0.0-r1: An extremely small and specification-compliant virtual machine
 dev-java/jopt-simple 4.5: A Java library for parsing command line options
 dev-java/jorbis 0.0.17-r1: JOrbis accepts Ogg Vorbis bitstreams and decodes them to raw PCM
 dev-java/log4j-api 2.2: API for Java's Apache Log4j
