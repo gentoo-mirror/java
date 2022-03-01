@@ -1,16 +1,14 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
-EAPI=5
+EAPI=8
 
-inherit autotools subversion
+inherit autotools git-r3
 
-ESVN_REPO_URI="http://overlays.gentoo.org/svn/proj/java/projects/${PN}/trunk/"
+EGIT_REPO_URI="https://anongit.gentoo.org/git/proj/eselect-java.git"
 
 DESCRIPTION="A set of eselect modules for Java"
 HOMEPAGE="http://www.gentoo.org/proj/en/java/"
-SRC_URI=""
 
 LICENSE="GPL-2"
 SLOT="0"
