@@ -15,6 +15,7 @@ dev-java/log4j-core 2.2: Core component of Java's Apache Log4j
 dev-java/lwjgl 2.9.3: The Lightweight Java Game Library (LWJGL)
 dev-java/netty-transport-native-epoll 4.0.21: Native Netty transport for Linux using JNI
 dev-java/openjdk-bin 18.0.1_p10: Prebuilt Java JDK binaries provided by Eclipse Temurin
+dev-java/openjdk-loom 19_pre20220513: Experimental OpenJDK with Project Loom (Fibers / Virtual Threads)
 dev-java/paulscode-codecjorbis 20101123: JOrbis codec plug-in for Paul Lamb's 3D Sound System
 dev-java/paulscode-codecwav 20101023: WAV codec plug-in for Paul Lamb's 3D Sound System
 dev-java/paulscode-libraryjavasound 20120107: JavaSound library plug-in for Paul Lamb's 3D Sound System
