@@ -4,7 +4,7 @@ dev-java/gcj-jdk 5.4.0-r1: Java wrappers around GCJ
 dev-java/gradle 7.1.0: A project automation and build tool with a Groovy based DSL
 dev-java/gradle-bin 4.10.3 5.6.2: A project automation and build tool with a Groovy based DSL
 dev-java/jamvm 2.0.0-r1: An extremely small and specification-compliant virtual machine
-dev-java/openjdk-bin 18.0.1_p10 19.0.1_p10: Prebuilt Java JDK binaries provided by Eclipse Temurin
+dev-java/openjdk-bin 18.0.1_p10 19.0.1_p10 20_beta20221125: Prebuilt Java JDK binaries provided by Eclipse Temurin
 dev-java/openjdk-loom 19_pre20221116: Experimental OpenJDK with Project Loom (Fibers / Virtual Threads)
 dev-java/sun-jce-bin 1.5.0: Sun's J2SE Cryptographic extensions, version 1.5.0
 sys-apps/baselayout-java 9999: Baselayout for Java
