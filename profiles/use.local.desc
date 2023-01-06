@@ -13,3 +13,5 @@ dev-java/openjdk-loom:jbootstrap - Build OpenJDK twice, the second time using th
 dev-java/openjdk-loom:source - Install JVM sources
 dev-java/openjdk-loom:system-bootstrap - Bootstrap using installed openjdk
 dev-java/openjdk-loom:systemtap - Enable SystemTAP/DTrace tracing
+dev-java/openjfx:media - Compile media module, based on gstreamer-minimal (does not pull gstreamer)
+dev-java/openjfx:source - Install JavaFX sources

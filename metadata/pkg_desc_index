@@ -6,6 +6,7 @@ dev-java/gradle-bin 4.10.3 5.6.2: A project automation and build tool with a Gro
 dev-java/jamvm 2.0.0-r1: An extremely small and specification-compliant virtual machine
 dev-java/openjdk-bin 18.0.1_p10 19.0.1_p10 20_beta20221125: Prebuilt Java JDK binaries provided by Eclipse Temurin
 dev-java/openjdk-loom 19_pre20221116: Experimental OpenJDK with Project Loom (Fibers / Virtual Threads)
+dev-java/openjfx 11.0.11_p1: Java OpenJFX client application platform
 dev-java/sun-jce-bin 1.5.0: Sun's J2SE Cryptographic extensions, version 1.5.0
 dev-util/ghidra 10.2.2-r2: A software reverse engineering framework
 sys-apps/baselayout-java 9999: Baselayout for Java
