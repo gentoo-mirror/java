@@ -83,7 +83,6 @@ gradle-set_EGRADLE() {
 			ver_test "${ver}" -ne "${EGRADLE_EXACT_VER}" && continue
 
 			selected="${candidate}"
-			selected_ver="${ver}"
 			break
 		fi
 
@@ -114,7 +113,6 @@ gradle-set_EGRADLE() {
 	fi
 
 	export EGRADLE="${selected}"
-	export EGRADLE_VER="${ver}"
 }
 
 # @FUNCTION: egradle
@@ -139,7 +137,7 @@ egradle() {
 		gradle_args+=( --parallel )
 	fi
 
-	local -x JAVA_TOOL_OPTIONS="-Duser.home=\"${T}\""
+	local -x JAVA_TOOL_OPTIONS="${JAVA_TOOL_OPTIONS} -Duser.home=\"${T}\""
 	# TERM needed, otherwise gradle may fail on terms it does not know about
 	TERM=xterm \
 		edo \
