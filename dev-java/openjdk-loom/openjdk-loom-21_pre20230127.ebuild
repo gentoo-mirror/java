@@ -1,9 +1,9 @@
 # Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
-inherit check-reqs eapi8-dosym flag-o-matic git-r3 java-pkg-2 java-vm-2 multiprocessing toolchain-funcs
+inherit check-reqs flag-o-matic git-r3 java-pkg-2 java-vm-2 multiprocessing toolchain-funcs
 
 MY_PV="${PV//_p/+}"
 SLOT="$(ver_cut 1)"
@@ -11,7 +11,7 @@ SLOT="$(ver_cut 1)"
 DESCRIPTION="Experimental OpenJDK with Project Loom (Fibers / Virtual Threads)"
 HOMEPAGE="https://openjdk.org"
 EGIT_REPO_URI="https://github.com/openjdk/loom.git"
-EGIT_COMMIT="4047afb36f33b9dfc537be2047869a3f7940654e"
+EGIT_COMMIT="b6f785d836dad7b7a2ac992cda02514d88fede95"
 
 LICENSE="GPL-2-with-classpath-exception"
 KEYWORDS="~amd64 ~arm ~arm64 ~ppc64 ~x86"
@@ -130,13 +130,14 @@ src_prepare() {
 }
 
 src_configure() {
-	if has_version dev-java/openjdk:${SLOT}; then
+	local build_jdk_ver=20
+	if has_version dev-java/openjdk:$build_jdk_ver; then
 		export JDK_HOME=${BROOT}/usr/$(get_libdir)/openjdk-${SLOT}
 	elif use !system-bootstrap ; then
 		local xpakvar="${ARCH^^}_XPAK"
 		export JDK_HOME="${WORKDIR}/openjdk-bootstrap-${!xpakvar}"
 	else
-		JDK_HOME=$(best_version -b dev-java/openjdk-bin:${SLOT})
+		JDK_HOME=$(best_version -b dev-java/openjdk-bin:$build_jdk_ver)
 		[[ -n ${JDK_HOME} ]] || die "Build VM not found!"
 		JDK_HOME=${JDK_HOME#*/}
 		JDK_HOME=${BROOT}/opt/${JDK_HOME%-r*}
@@ -252,7 +253,7 @@ src_install() {
 	dodir "${dest}"
 	cp -pPR * "${ddest}" || die
 
-	dosym8 -r /etc/ssl/certs/java/cacerts "${dest}"/lib/security/cacerts
+	dosym -r /etc/ssl/certs/java/cacerts "${dest}"/lib/security/cacerts
 
 	# must be done before running itself
 	java-vm_set-pax-markings "${ddest}"
