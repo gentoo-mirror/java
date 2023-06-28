@@ -32,6 +32,10 @@
 #     ...
 #     $(gradle_src_uri)
 # "
+# src_unpack() {
+#    default
+#    gradle-src_unpack
+# }
 # @CODE
 #
 # Afterwards, use egradle to invoke gradle.
@@ -105,20 +109,14 @@ gradle-set_EGRADLE() {
 		return
 	fi
 
-	local candidates candidate selected selected_ver
+	local candidate selected selected_ver ver
 
-	candidates=$(compgen -c gradle-)
-	for candidate in ${candidates}; do
-		if [[ ! ${candidate} =~ gradle(-bin)?-([.0-9]+) ]]; then
+	for candidate in "${BROOT}"/usr/bin/gradle-; do
+		if [[ ${candidate} != */gradle?(-bin)-+([.0-9]) ]]; then
 			continue
 		fi
 
-		local ver
-		if (( ${#BASH_REMATCH[@]} == 3 )); then
-			ver="${BASH_REMATCH[2]}"
-		else
-			ver="${BASH_REMATCH[1]}"
-		fi
+		ver=${candidate##*-}
 
 		if [[ -n ${EGRADLE_EXACT_VER} ]]; then
 			ver_test "${ver}" -ne "${EGRADLE_EXACT_VER}" && continue
@@ -150,7 +148,7 @@ gradle-set_EGRADLE() {
 	done
 
 	if [[ -z ${selected} ]]; then
-		die "Could not find (suitable) gradle installation in PATH"
+		die "Could not find (suitable) gradle installation in ${BROOT}/usr/bin"
 	fi
 
 	EGRADLE="${selected}"
@@ -164,6 +162,18 @@ gradle-src_uri() {
 		die "Must set EGRADLE_BUNDLED_VER when calling gradle-src_uri"
 	fi
 	echo "https://services.gradle.org/distributions/gradle-${EGRADLE_BUNDLED_VER}-bin.zip"
+}
+
+# @FUNCTION: gradle-src_unpack
+# @DESCRIPTION:
+# Unpack the "bundled" gradle version.  You must have
+# EGRADLE_BUNDLED_VER set when calling this function.
+gradle-src_unpack() {
+	if [[ -z ${EGRADLE_BUNDLED_VER} ]]; then
+		die "Must set EGRADLE_BUNDLED_VER when calling gradle-src_unpack"
+	fi
+
+	unpack "gradle-${EGRADLE_BUNDLED_VER}-bin.zip"
 }
 
 # @FUNCTION: egradle
