@@ -10,5 +10,5 @@ RDEPEND=>=virtual/jdk-1.8:*
 RESTRICT=network-sandbox
 SLOT=7.1.0
 SRC_URI=https://github.com/gradle/gradle/archive/refs/tags/v7.1.0.tar.gz -> gradle-7.1.0.tar.gz
-_eclasses_=edo	f75ee9179825c4cb6679eb3094d7a779	gradle	1922f1ee39a7437c4f97fd1e3457ce8e
+_eclasses_=edo	367e103a74bf77e6a8da7894d999fa3c	gradle	1922f1ee39a7437c4f97fd1e3457ce8e
 _md5_=3c2d3dc900f840de7faf382697ba1d2c
