@@ -2,6 +2,7 @@ app-eselect/eselect-java 9999: A set of eselect modules for Java
 dev-java/gradle 7.1.0: A project automation and build tool with a Groovy based DSL
 dev-java/gradle-bin 4.10.3 5.6.2 6.8.3 6.9.4 7.1.1 7.2 7.3.3 7.4.2 7.5.1 7.6.1 7.6.3 8.0.2 8.1.1 8.2.1 8.3: A project automation and build tool with a Groovy based DSL
 dev-java/openjdk-bin 18.0.1_p10 19.0.2_p7 20_beta20221125 21_p35: Prebuilt Java JDK binaries provided by Eclipse Temurin
+dev-java/openjdk-zero 25_p8: Open source implementation of the Java programming language
 dev-java/openjfx 11.0.11_p1: Java OpenJFX client application platform
 dev-util/ghidra 10.2.2-r2: A software reverse engineering framework
 sys-apps/baselayout-java 9999: Baselayout for Java
